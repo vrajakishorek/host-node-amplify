@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "start:dev": "node ./build/main.js",
-    "build:dev": "webpack --config webpack.dev.js --mode development"
+    "start:old": "node index.js",
+    "start": "node ./build/main.js",
+    "build": "webpack --config webpack.dev.js --mode development"
   },
   "keywords": [],
   "author": "",
